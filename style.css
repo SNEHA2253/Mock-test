@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+/* Job Posting Page*/
+.page#job-posting-page {
+    background-image: url('2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#job-post-form {
+    width: 100%;
+    max-width: 600px;
+}
+
+#job-post-form label, #job-post-form input, #job-post-form textarea, #job-post-form button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#job-post-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#job-post-form button:hover {
+    background-color: #45a049;
+}
+
